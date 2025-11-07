@@ -1,0 +1,47 @@
+# 🧠 IA-LOG – Proyecto BlueChat
+
+Este documento registra cómo utilizamos la inteligencia artificial (ChatGPT) para construir la aplicación **BlueChat** en Flutter.
+
+---
+
+## 🧩 Prompt 1
+**Prompt:** “¿Cómo puedo crear una aplicación Flutter que permita chatear entre dos móviles usando Bluetooth?”  
+**Respuesta (resumen):** La IA explicó que se debía usar el paquete `flutter_bluetooth_serial`, configurar permisos en Android y crear una interfaz tipo chat.  
+**Aprendizaje:** Aprendimos que Flutter necesita permisos especiales (`BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`) y que la conexión debe manejarse con `BluetoothConnection`.
+
+---
+
+## 💬 Prompt 2
+**Prompt:** “Enséñame cómo crear la interfaz de chat en Flutter.”  
+**Respuesta (resumen):** La IA generó un layout con `ListView` para los mensajes y un `TextField` con botón de enviar en la parte inferior.  
+**Aprendizaje:** Aprendimos a usar `Column`, `Expanded` y `TextEditingController` para controlar la entrada de texto y la lista de mensajes.
+
+---
+
+## ⚙️ Prompt 3
+**Prompt:** “¿Cómo se agregan los permisos de Bluetooth en Android?”  
+**Respuesta (resumen):** La IA explicó cómo editar el `AndroidManifest.xml` para incluir los permisos necesarios.  
+**Aprendizaje:** Entendimos que Android 12+ requiere permisos adicionales y cómo se declaran en el manifest.
+
+---
+
+## 🧩 Prompt 4
+**Prompt:** “¿Cómo subo mi proyecto Flutter a GitHub?”  
+**Respuesta (resumen):** La IA dio instrucciones paso a paso para usar comandos Git: `git init`, `add`, `commit`, `remote add`, y `push`.  
+**Aprendizaje:** Aprendimos a crear un repositorio remoto y sincronizarlo con nuestro proyecto local.
+
+---
+
+## 🎯 Prompt 5
+**Prompt:** “¿Cómo crear un archivo IA-LOG.md para documentar el proceso?”  
+**Respuesta (resumen):** La IA explicó cómo crear un archivo Markdown y cómo estructurar las secciones de prompts, respuestas y aprendizajes.  
+**Aprendizaje:** Aprendimos a registrar nuestro proceso de aprendizaje con IA de forma clara y organizada.
+
+---
+
+## 🧾 Conclusión
+Gracias a la asistencia de la IA, pudimos:
+- Crear una app Flutter funcional paso a paso.  
+- Comprender mejor cómo funcionan los permisos de Android y la estructura del proyecto.  
+- Documentar nuestro proceso constructivista y ágil de desarrollo.
+
